@@ -1,0 +1,12 @@
+Source: ros-indigo-wge100-driver
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/wge100_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-wge100-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-wge100-camera, ros-indigo-wge100-camera-firmware
+Description: This stack contains the ROS driver and firmware for the WGE100 camera used on the PR2 robot.
