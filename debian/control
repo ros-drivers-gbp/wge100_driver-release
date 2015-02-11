@@ -1,0 +1,12 @@
+Source: ros-indigo-wge100-camera-firmware
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), gforth, ros-indigo-catkin, ros-indigo-rospy, ros-indigo-rostest
+Homepage: http://ros.org/wiki/wge100_camera_firmware
+Standards-Version: 3.9.2
+
+Package: ros-indigo-wge100-camera-firmware
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gforth, ros-indigo-rospy
+Description: Source for the WGE100 Ethernet camera: Verilog source for the FPGA, Forth source for the camera firmware. Intended for camera developers. Note that a built binary from this package is checked in under wge100_camera/firmware_images/
