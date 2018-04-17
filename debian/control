@@ -1,0 +1,12 @@
+Source: ros-kinetic-wge100-camera
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-camera-calibration-parsers, ros-kinetic-catkin, ros-kinetic-diagnostic-updater, ros-kinetic-driver-base, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-message-generation, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-rostest, ros-kinetic-self-test, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-timestamp-tools
+Homepage: http://www.ros.org/wiki/wge100_camera
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-wge100-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-camera-calibration-parsers, ros-kinetic-diagnostic-updater, ros-kinetic-driver-base, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-message-runtime, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-self-test, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-timestamp-tools
+Description: A ROS node and assorted tools to provide access to the WGE100 camera used in the forearms and the stereo cameras of the PR2 robot.
