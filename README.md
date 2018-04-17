@@ -1,3 +1,29 @@
+## wge100_driver (kinetic) - 1.8.2-0
+
+The packages in the `wge100_driver` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release wge100_driver --track kinetic --rosdistro kinetic --new-track` on `Tue, 17 Apr 2018 21:28:33 -0000`
+
+These packages were released:
+- `wge100_camera`
+- `wge100_camera_firmware`
+- `wge100_driver`
+
+Version of package(s) in repository `wge100_driver`:
+
+- upstream repository: https://github.com/ros-drivers/wge100_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.8.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.1`
+- rosdep version: `0.12.1`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## wge100_driver (indigo) - 1.8.2-0
 
 The packages in the `wge100_driver` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo wge100_driver` on `Wed, 11 Feb 2015 20:00:23 -0000`
