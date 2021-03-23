@@ -1,3 +1,29 @@
+## wge100_driver (noetic) - 1.8.5-1
+
+The packages in the `wge100_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release wge100_driver --rosdistro noetic --track noetic` on `Tue, 23 Mar 2021 23:16:56 -0000`
+
+These packages were released:
+- `wge100_camera`
+- `wge100_camera_firmware`
+- `wge100_driver`
+
+Version of package(s) in repository `wge100_driver`:
+
+- upstream repository: https://github.com/ros-drivers/wge100_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.8.4-1`
+- new version: `1.8.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## wge100_driver (noetic) - 1.8.4-1
 
 The packages in the `wge100_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release wge100_driver --rosdistro noetic --track noetic` on `Tue, 23 Mar 2021 23:03:44 -0000`
