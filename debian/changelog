@@ -1,0 +1,45 @@
+ros-noetic-wge100-camera-firmware (1.8.5-1focal) focal; urgency=high
+
+
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Tue, 23 Mar 2021 07:00:00 -0000
+
+ros-noetic-wge100-camera-firmware (1.8.3-1focal) focal; urgency=high
+
+  * removed deprecated test, updated CMakeLists.txt for new policy
+  * updated changelogs
+  * Contributors: Dave Feil-Seifer, David Feil-Seifer
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Sun, 07 Mar 2021 08:00:00 -0000
+
+ros-noetic-wge100-camera-firmware (1.8.2-1focal) focal; urgency=high
+
+
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Tue, 16 Jul 2013 07:00:00 -0000
+
+ros-noetic-wge100-camera-firmware (1.8.1-1focal) focal; urgency=high
+
+  * Fix dependencies and set myself as maintainer.
+  * Contributors: Austin Hendrix
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Sun, 14 Jul 2013 07:00:00 -0000
+
+ros-noetic-wge100-camera-firmware (1.8.0-1focal) focal; urgency=high
+
+  * Version 1.8.0
+  * Finish catkinizing.
+  * Switching to cakin: catkinizing wge100_camera_firmware is building without installing the python scripts.
+  * Contributors: Austin Hendrix, Georg Bartels
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Fri, 12 Jul 2013 07:00:00 -0000
+
+ros-noetic-wge100-camera-firmware (1.7.4-1focal) focal; urgency=high
+
+  * Remove everything but WGE100 from wge100_driver stack.
+  * new stack for wge100 driver and firmware
+  * Contributors: Jack O'Quin
+
+ -- Austin Hendrix <ahendrix@willowgarage.com>  Fri, 12 Oct 2012 07:00:00 -0000
+
+
